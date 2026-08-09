@@ -1,0 +1,108 @@
+(footprint "BatteryConn"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d8a2b7bf-3534-454a-a497-b127f563ed2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BatteryConn"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "019c3a2b-d210-462a-b80c-bf37ed31075c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "509d1ec4-16e4-48b0-a42c-79fb1efcb666")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d408a2-c486-42a2-bf29-a59d43ec0aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "393c777c-069e-406a-a552-02e20a4de694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5 5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right bottom_right)
+		(uuid "7f1a9f9b-afe6-491f-beeb-ee7eaa8b4518")
+	)
+	(pad "2" smd roundrect
+		(at -2 5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left bottom_left)
+		(uuid "3e392360-9e38-4015-930d-1a170003dc22")
+	)
+	(pad "3" smd roundrect
+		(at 2 5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right bottom_right)
+		(uuid "65f63b90-c975-4dd1-bc2b-5548b36a3d53")
+	)
+	(pad "4" smd roundrect
+		(at 5 5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left bottom_left)
+		(uuid "33955e86-87fd-4d72-a9ce-7e9afa7ffcd5")
+	)
+	(embedded_fonts no)
+)
