@@ -1,0 +1,112 @@
+(footprint "TO4056"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee55248e-f19c-4836-9791-ad5d0700c299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TO4056"
+		(at 0 -5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8c59e34-0188-4351-8ebe-913bc46f7a2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "450243f0-36bf-4d17-9ad4-92a2fa906f9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72ac6ccb-5da7-43d9-8cc7-8096b4d903f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -14 -8)
+		(end 14 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c69d6e7-91ee-4fb0-8a58-5a35bcd408f1")
+	)
+	(pad "1" smd roundrect
+		(at -11.5 -6.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "80aeeedc-8e4e-4e85-809a-31902190b155")
+	)
+	(pad "2" smd roundrect
+		(at -11.5 6.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "5f2211fa-7d67-4596-beb6-13fe85c417fe")
+	)
+	(pad "3" smd roundrect
+		(at 11.5 6.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "115a1fb6-5480-433d-bf18-921f40ef4789")
+	)
+	(pad "4" smd roundrect
+		(at 11.5 4)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "2f88258b-236e-4d1d-b3ae-c4f1ec4a4cee")
+	)
+	(pad "5" smd roundrect
+		(at 11.5 -4)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "a21927cf-dcf3-4f5e-8e48-cd74052ae84f")
+	)
+	(pad "6" smd roundrect
+		(at 11.5 -6.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "e235d35d-a612-477a-83ed-6d8d43484e6f")
+	)
+	(embedded_fonts no)
+)
